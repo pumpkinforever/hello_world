@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+  int n,x=0,prod;
+  cout<<"Enter a number to print its multiplication table";
+  cin>>n;
+  while(x<10)
+  {
+    x=x+1;
+    prod=n*x;
+    cout<<"Multiplication table for"<<n<<"is"<<n<<"*"<<x<<"="<<prod;
+    cout<<endl;
+    
+    }
+    }
+ 
